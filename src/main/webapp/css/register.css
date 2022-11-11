@@ -1,0 +1,49 @@
+.main {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+body {background-image:url('../img/back.png');}
+
+.top10{
+	margin-top:10px;
+}
+.top20{
+	margin-top:20px;
+
+}
+
+/* .class 类选择器
+#id id选择器
+div 标签选择器 */
+.font_14{
+	font-size: 14px;
+}
+
+/* 伪类 */
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(253, 107, 4);
+	/*颜色变换*/
+}
+
+a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#username_error{
+	/*color:red;*/
+	/*font-size:15px;*/
+	/*display: none;*/
+}
+
